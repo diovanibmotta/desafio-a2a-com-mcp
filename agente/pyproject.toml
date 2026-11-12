@@ -1,0 +1,10 @@
+[project]
+name = "agente-central-de-salas"
+version = "1.0.0"
+description = "Agente A2A v1.0 que consome o servidor MCP de salas por dentro"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx==0.28.1",
+    "starlette==1.10.0",
+    "uvicorn==0.54.0",
+]
